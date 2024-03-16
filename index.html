@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500..800;1,500..800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"/>
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="rs">
+    <div class="rs_result rs_section">
+      <h3 class="rs_title rs_result_title">Your Result</h3>
+      <div class="rs_result_wrapper">
+        <p class="rs_result_val">76</p>
+        <p class="rs_result_of">of 100</p>
+      </div>
+      <p class="rs_result_txt">Great</p>
+      <p class="rs_result_desc">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="rs_summary rs_section">
+      <h3 class="rs_title rs_summary_title">Summary</h3>
+      <div class="rs_summary_list">
+        <div class="rs_summary_item reaction">
+          <img class="rs_summary_item_icon" src="./assets/images/icon-reaction.svg"/>
+          <p class="rs_summary_item_label">Reaction</p>
+          <p class="rs_summary_item_val"><span>80</span> / 100</p>
+        </div>
+        <div class="rs_summary_item memory">
+          <img class="rs_summary_item_icon" src="./assets/images/icon-memory.svg"/>
+          <p class="rs_summary_item_label">Memory</p>
+          <p class="rs_summary_item_val"><span>92</span> / 100</p>
+        </div>
+        <div class="rs_summary_item verbal">
+          <img class="rs_summary_item_icon" src="./assets/images/icon-verbal.svg"/>
+          <p class="rs_summary_item_label">Verbal</p>
+          <p class="rs_summary_item_val"><span>61</span> / 100</p>
+        </div>
+        <div class="rs_summary_item visual">
+          <img class="rs_summary_item_icon" src="./assets/images/icon-visual.svg"/>
+          <p class="rs_summary_item_label">Visual</p>
+          <p class="rs_summary_item_val"><span>72</span> / 100</p>
+        </div>
+      </div>
+      <button class="rs_summary_btn">Continue</button>
+    </div>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
